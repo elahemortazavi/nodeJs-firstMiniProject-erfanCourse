@@ -6,8 +6,7 @@ async function get (req, res) {
         res.writeHead(200, { "content-Type": "application.json" });
         res.write(JSON.stringify(products));
         res.end();
-
-        
+    
     } catch (error) {
         
     }
